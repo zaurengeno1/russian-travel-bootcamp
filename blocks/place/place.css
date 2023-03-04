@@ -1,9 +1,9 @@
 .place{
 	display: grid;
 	grid-template-columns:minmax(440px, 460px ) minmax(456px, 484px);
-	grid-template-areas: "place__title place__websiti" "place__image place__paragraph" ;
-	
-	gap: 48px 40px ;
+	grid-template-areas:"place__title place__websiti" "place__image place__paragraph";
+
+	gap: 48px 40px;
 	margin: 0 0 80px;
 
 }
