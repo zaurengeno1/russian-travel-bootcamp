@@ -1,0 +1,16 @@
+.lead__text-caption{
+	font-size: 10px;
+	line-height: 140%;
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	margin: 8px 0 0 0;
+	font-family: 'Inter',  Arial, sans-serif;
+	color: #fff;
+}
+	@media screen and (max-width: 768px) {
+		.lead__text-caption{
+		margin-left:calc(16px + (24 - 16) *((100vw - 320px) / (768 -320)));
+		}
+	
+	} 

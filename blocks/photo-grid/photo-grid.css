@@ -1,0 +1,36 @@
+.photo-grid{
+	max-width: 1184px;
+display: grid;
+width: calc(100% - 96px);
+margin: 0 auto 92px auto;
+gap: 16px;
+grid-template-columns: repeat(4, 1fr) ;
+grid-template-rows: repeat(3, 1fr)
+
+}
+@media screen and (max-width: 1024px){
+  .photo-grid{
+		gap: 14px;
+   width: calc(100% - (96px - (1024px - 100%) * 0.18));
+	 grid-template-columns: repeat(3, 1fr) ;
+	 grid-template-rows: repeat(4, 1fr)
+  }
+	/* 1024 - 768 = 256.  на 48 / 256 =0,18 = переход на 24px отступ по бокам */
+}
+@media screen and (max-width: 768px){
+  .photo-grid{
+   width: calc(100% - (48px - (768px - 100%) * 0.03));
+	 grid-template-columns: repeat(2, auto) ;
+	gap: 16px;
+	margin-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+  }
+	/*  768 - 320 = 448. 16 / 448 = 0,3  переход на 16px отступ по бокам   */
+}
+@media screen and (max-width: 320px){
+  .photo-grid{
+	 grid-template-columns: repeat(1, auto) ;
+	row-gap: 12px;
+	
+  }
+	
+}

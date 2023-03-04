@@ -1,0 +1,10 @@
+.header__logo{ 
+	max-width: 176px;
+}
+
+@media screen and (max-width: 768px) {
+	 .header__logo{
+	width: calc(142px + (176 - 142) * ((100vw - 320px) / (768 - 320)));
+	 }
+}
+/* 142 размер на 320 (176 изнач-ый размер - 142) * ((100vw - 320px) / (768 - 320) */

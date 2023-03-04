@@ -1,0 +1,23 @@
+.footer{
+max-width: 1184px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto 0;
+padding-bottom: 24px;
+width: calc(100% - 96px);
+	}
+	@media screen and (max-width: 1023px){
+.footer{
+	width: calc(100% - (96px - (1024px - 100%) * 0.18));
+	
+}
+/* 1024 - 768 = 256.  на 48 / 256 =0,18 = переход на 24px отступ по бокам */
+	}
+@media screen and (max-width: 767px){
+.footer{
+flex-direction: column;
+ width: calc(100% - (48px - (768px - 100%) * 0.034));
+	
+}
+/*  768 - 320 = 448. 16 / 448 = 0,3  переход на 16px отступ по бокам   */
+}

@@ -1,0 +1,42 @@
+.lead{
+	max-width: 984px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto 92px;
+ width:calc(100% - 296px)
+}
+
+
+
+@media screen and (max-width: 1279px) {
+	.lead{
+		width: calc(100% - 96px)
+	
+}
+}
+
+/* чтобы плавно перешел отступ по бокам на 48px  */
+
+@media  screen and (max-width: 1020px) {
+	.lead{
+		width: calc(100% - (96px - (1024px - 100%) * 0.48));
+	}
+
+	/* 1024 - 824 = 200 . 96 / 200 = 0,48 чтобы был мягкий переход на 824 - 1 */
+}
+
+@media screen and (max-width: 824px) {
+	.lead{
+		width: calc(100% - 1px)
+	
+}
+}
+/*  чтобы отступы заданные на 1024px обнулились */
+
+@media screen and (max-width: 768px) {
+  .lead{
+  margin-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+  }
+
+}

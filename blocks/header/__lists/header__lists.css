@@ -1,0 +1,14 @@
+.header__lists {
+display: flex;
+gap: 18px;
+margin: 0;
+margin-top: 18px;
+list-style: none;
+color: #fff;
+padding: 0;
+}
+@media screen and (max-width: 768px) {
+	.header__lists{
+		margin-top:calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320))) ;
+	}
+}
