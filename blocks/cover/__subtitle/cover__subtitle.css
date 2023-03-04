@@ -5,10 +5,10 @@
 	line-height: 122%;
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Inter',  Arial, sans-serif;
+	font-family: 'Inter', Arial, sans-serif;
 	color: #fff;
 	z-index: 2;
-	
+
 }
 @media screen and (max-width: 767px) {
 	.cover__subtitle{
