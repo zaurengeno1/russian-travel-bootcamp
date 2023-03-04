@@ -1,53 +1,51 @@
 .intro{
 	max-width: 690px;
-		display: flex;
-		flex-direction: column;
-		margin: 0  auto;
-		width:calc(100% - 296px);
-		margin: 0 auto 92px 148px;
-		padding: 0;
+	display: flex;
+	flex-direction: column;
+	width:calc(100% - 296px);
+	margin: 0 auto 92px 148px;
+	padding: 0;
 	}
 	@media screen and (max-width: 1279px) {
-		.intro{
-			margin-left:calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+	.intro{
+	margin-left:calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
 		}
 	}
 	/* (148 на 1280) (48 на 1024) */
-	
-	
+
+
 	@media screen and (max-width: 1024px) {
-		.intro{
+	.intro{
 	margin-left:calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
 	}
 	}
 	/* 1024 = 48 - 24 на 768 */
-	
+
 	 @media screen and (max-width: 1020px) {
-		.intro{
+	.intro{
 	max-width: 720px;
-	 width: calc(720px + (690 - 720 ) * ((100vw - 768px) / (1024 - 768)));
-	
-	 
+	width: calc(720px + (690 - 720 ) * ((100vw - 768px) / (1024 - 768)));
+
+
 		}
-	} 
+	}
 	/* 690 размер на 1024 ,нам нужно 720 на 768    */
-	
-	
+
+
 	@media screen and (max-width: 768px) {
-		.intro{
+	.intro{
 	 margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
 	 margin-bottom: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
 		}
 	}
-	
-	
-	 
-	
+
+
+
+
 	@media screen and (max-width: 767px) {
 		.intro{
 	 width: calc(288px + (720 - 288 ) * ((100vw - 320px) / (768 - 320)));
-	
+
 		}
 	}
 	/* 768 размер 720 - на 320 нужен 288, */
-	

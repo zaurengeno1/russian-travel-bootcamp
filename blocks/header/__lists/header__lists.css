@@ -8,7 +8,7 @@ color: #fff;
 padding: 0;
 }
 @media screen and (max-width: 768px) {
-	.header__lists{
-		margin-top:calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320))) ;
+.header__lists{
+margin-top:calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320))) ;
 	}
 }

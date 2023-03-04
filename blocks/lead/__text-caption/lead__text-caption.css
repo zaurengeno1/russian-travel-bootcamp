@@ -9,8 +9,8 @@
 	color: #fff;
 }
 	@media screen and (max-width: 768px) {
-		.lead__text-caption{
-		margin-left:calc(16px + (24 - 16) *((100vw - 320px) / (768 -320)));
+	.lead__text-caption{
+	margin-left:calc(16px + (24 - 16) *((100vw - 320px) / (768 -320)));
 		}
-	
-	} 
+
+	}
