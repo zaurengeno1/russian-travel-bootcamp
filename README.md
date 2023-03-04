@@ -2,9 +2,6 @@
 
 ### Обзор
 
-
-
-Технологии
 При создание использовались технологии:
 
 HTML
@@ -19,4 +16,4 @@ CSS
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
- - ссылка на проект:  https://github.com/zaurengeno1/russian-travel
+ - ссылка на проект:  https://github.com/zaurengeno1/russian-travel/index.html
