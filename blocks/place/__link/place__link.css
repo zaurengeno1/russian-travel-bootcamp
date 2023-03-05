@@ -5,6 +5,7 @@
 	color: #fff;
 	margin: 0;
 	transition: opacity .3s linear;
+  font-family: inherit;
 }
 .place__link:hover{
 	opacity: .5;

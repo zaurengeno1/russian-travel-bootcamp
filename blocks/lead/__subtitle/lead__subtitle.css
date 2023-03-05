@@ -8,12 +8,7 @@ font-family: 'Inter', Arial, sans-serif;
 margin: 0 auto 64px;
 color: #fff;
 }
-@media screen and (max-width: 768px) {
-.lead__subtitle{
-font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
-  }
 
-}
 @media screen and (max-width: 1024px) {
 .lead__subtitle{
  margin-bottom: 56px;
@@ -21,6 +16,7 @@ font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
 }
 @media screen and (max-width: 768px) {
 .lead__subtitle{
+  font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
  margin-bottom: calc(40px + (56 - 40) * ((100vw - 320px) / (1024 - 320)));
   }
 

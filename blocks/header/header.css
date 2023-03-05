@@ -8,7 +8,7 @@ margin: 28px auto 56px;
 @media screen and (max-width: 1024px){
  .header{
  width: calc(100% - (96px - (1024px - 100%) * 0.18));
-
+ margin-bottom: 48px;
   }
 	/* 1024 - 768 = 256.  на 48 / 256 =0,18 = переход на 24px отступ по бокам */
 }
@@ -20,11 +20,7 @@ margin: 28px auto 56px;
 	/*  768 - 320 = 448. 16 / 448 = 0,3  переход на 16px отступ по бокам   */
 }
 
-@media screen and (max-width: 1024px) {
-.header{
-margin-bottom: 48px;
-	}
-}
+
 
 @media screen and (max-width: 768px) {
 .header{

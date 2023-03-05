@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./pages/index.css" >
     <title>Путешествия по России</title>
   </head>
+
   <body class="body">
     <div class="page">
       <header class="header">
@@ -18,12 +19,12 @@
 
         <ul class="header__lists">
           <li class="header__list">
-            <a class="header__lang-link" href="#" target="_blank">Ru</a>
+            <a class="header__lang-link  header__lang-lin_underline" href="#" target="_blank">Ru</a>
           </li>
           <li class="header__list">
             <a
               href="#"
-              class="header__lang-link header__lang-link_type_none"
+              class="header__lang-link"
               target="_blank"
               >En</a
             >
@@ -33,17 +34,17 @@
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h2 class="lead__subtitle">
+          <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
-          </h2>
-          <div class="lead__block-image">
+          </p>
+          <figure class="lead__figure">
             <img
               src="./images/lead-polka.jpg"
               alt="Девушка в поезде,от Пскова до Улан-Удэ"
               class="lead__image"
             >
-            <p class="lead__text-caption">ваша полка — верхняя</p>
-          </div>
+            <figcaption class="lead__text-caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
 
         <section class="intro">
@@ -61,11 +62,11 @@
             вашего отпуска.
           </p>
           <ul class="intro__lists">
-            <li class="intro__list">Часовых поясов 11</li>
-            <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__list">Природных заповедников 105</li>
-            <li class="intro__list">Аэропортов 241</li>
+            <li class="intro__list">Часовых поясов <span class="intro__span">11</span></li>
+            <li class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__span"> 12 </span></li>
+            <li class="intro__list">Объектов культурного наследия ЮНЕСКО  <span class="intro__span"> 16 </span></li>
+            <li class="intro__list">Природных заповедников  <span class="intro__span">  105 </span></li>
+            <li class="intro__list">Аэропортов  <span class="intro__span"> 241 </span></li>
           </ul>
         </section>
         <section class="photo-grid">

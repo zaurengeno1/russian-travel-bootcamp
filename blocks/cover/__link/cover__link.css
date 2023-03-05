@@ -1,6 +1,6 @@
 .cover__link{
 	width: 100%;
-	height: 740px;
+	min-height: 740px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -18,13 +18,13 @@
 
 	@media screen and (max-width: 1279px) {
 	.cover__link{
-	 height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+	min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
 		}
 	}
 
 	@media screen and (max-width: 1023px) {
 		.cover__link{
-			height: calc(480px + (640 - 480) * ((100vw - 768px) / (1024 - 768)));
+		min-height: calc(480px + (640 - 480) * ((100vw - 768px) / (1024 - 768)));
 		}
 	}
 	.cover__link::before{
@@ -36,9 +36,9 @@
 	top: 0;
 	left: 0px;
 	transition: .4s linear;
-	opacity: .4;
+	opacity: .3;
 
 	}
 	.cover__link:hover::before{
-		opacity: .8;
+		opacity: .7;
 	}

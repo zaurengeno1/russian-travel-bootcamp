@@ -15,15 +15,10 @@
 
 		}
 	}
-	@media screen and (max-width: 760px) {
-	.place__title{
-	font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
-
-		}
-	}
-
+	
 	@media screen and (max-width: 720px) {
 	.place__title{
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
 	margin-left: 16px;
 	margin-right: 16px;
 		}}
