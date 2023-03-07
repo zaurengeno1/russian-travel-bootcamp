@@ -1,6 +1,6 @@
-.place__image{
-	width: 100%;
-	object-fit: cover;
-	grid-area: place__image;
-	margin: 0;
+.place__image {
+  width: 100%;
+  object-fit: cover;
+  grid-area: place__image;
+  margin: 0;
 }

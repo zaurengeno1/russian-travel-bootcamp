@@ -1,8 +1,8 @@
-.body{
-    background-color: #2A2C2F;
-    text-rendering: optimizeLegibility;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    font-family: 'inter',Arial, sans-serif;
+.body {
+  background-color: #2a2c2f;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-family: "inter", Arial, sans-serif;
 }

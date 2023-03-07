@@ -1,11 +1,13 @@
-.place__websiti{
-display: flex;
-flex-direction: column;
-align-self: flex-end;
-grid-area: place__websiti;
+.place__websiti {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  grid-area: place__websiti;
 }
-@media screen and (max-width: 720px) {
-.place__websiti{
-margin-left: 16px;
-margin-right: 16px;
-	}}
+
+@media screen and (max-width: 730px) {
+  .place__websiti {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

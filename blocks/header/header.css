@@ -1,30 +1,24 @@
-.header{
-width: calc(100% - 96px);
-display: flex;
-justify-content: space-between;
-margin: 28px auto 56px;
-
+.header {
+  width: calc(100% - 96px);
+  display: flex;
+  justify-content: space-between;
+  margin: 28px auto 56px;
 }
-@media screen and (max-width: 1024px){
- .header{
- width: calc(100% - (96px - (1024px - 100%) * 0.18));
- margin-bottom: 48px;
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% - (96px - (1024px - 100%) * 0.18));
+    margin-bottom: 48px;
   }
-	/* 1024 - 768 = 256.  на 48 / 256 =0,18 = переход на 24px отступ по бокам */
+
+  /* 1024 - 768 = 256.  на 48 / 256 =0,18 = переход на 24px отступ по бокам */
 }
-@media screen and (max-width: 768px){
-.header{
- width: calc(100% - (48px - (768px - 100%) * 0.03));
-
-  }
-	/*  768 - 320 = 448. 16 / 448 = 0,3  переход на 16px отступ по бокам   */
-}
-
-
 
 @media screen and (max-width: 768px) {
-.header{
-margin-top:calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
-}
-/* 16 отступ на 320px + (28 изначальный отступ, от него минус 16) * (100vw - 320) 320 это где должен быть отступ 16px) / (768 - 320) = (448 / 28 = 16)  */
+  .header {
+    width: calc(100% - (48px - (768px - 100%) * 0.03));
+    margin-top: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
+  }
+
+  /* 16 отступ на 320px + (28 изначальный отступ, от него минус 16) * (100vw - 320) 320 это где должен быть отступ 16px) / (768 - 320) = (448 / 28 = 16)  */
 }

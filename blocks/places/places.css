@@ -1,36 +1,30 @@
-.places{
-max-width: 984px;
-width: calc(100% - 296px);
-margin: 0 auto 92px;
-
+.places {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 296px);
+  margin: 0 auto 92px;
 }
 @media screen and (max-width: 1279px) {
-.places{
-/* width: calc(100% - 96px); */
-width: calc(100% - (148px - (1280px - 100%) * 0.37));
-		}
+  .places {
+    width: calc(100% - 96px);
+  }
 }
 /* чтобы плавно перешел отступ по бокам на 48px  */
 
+@media screen and (max-width: 1023px) {
+  .places {
+    width: calc(100% - (48px - (768px - 100%) * 0.09));
+    margin-bottom: calc(66px + (90 - 66) * ((100vw - 320px) / (1020 - 320)));
+  }
 
-@media  screen and (max-width: 1023px) {
-.places{
-width: calc(100% - (96px - (1024px - 100%) * 0.18));
-	}
-
-	/* 1024 - 768 = 256 . 48 / 256 = 0,18  */
+  /* 1024 - 768 = 256 . 48 / 256 = 0,18  */
 }
-@media  screen and (max-width: 721px) {
-.places{
-		/* width: calc(100% - (48px - (768px - 100%) * 0.035)); */
-width: calc(100% - 1px);
-
-
-	}
-}
-
-@media screen and (max-width: 1020px) {
-.places{
-margin-bottom:calc(66px + (90 - 66) * ((100vw - 320px) / (1020 - 320)));
-	}
+@media screen and (max-width: 767px) {
+  .places {
+    /* width: calc(100% - (48px - (768px - 100%) * 0.035)); */
+    width: 100%;
+    max-width: 720px;
+  }
 }

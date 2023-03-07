@@ -1,5 +1,5 @@
-.lead__image{
+.lead__image {
   display: block;
-object-fit: cover;
-width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
